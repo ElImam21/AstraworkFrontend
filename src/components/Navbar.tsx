@@ -46,12 +46,14 @@ const Navbar = () => {
 
         {/* Tombol CTA (desktop only) */}
         <div className="hidden md:block">
-          <Link
-            href="/Kontak"
+          <a
+            href="https://wa.me/62895322276944"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-[#F76F1F] hover:bg-[#E65A0F] text-white font-bold py-2 px-4 rounded-full transition-all duration-300 transform hover:scale-105"
           >
             Hubungi Kami
-          </Link>
+          </a>
         </div>
 
         {/* Hamburger Button (mobile & tablet) */}
@@ -71,13 +73,15 @@ const Navbar = () => {
           <Link href="/TentangKami" onClick={() => setIsOpen(false)}>Tentang Kami</Link>
           <Link href="/Kontak" onClick={() => setIsOpen(false)}>Kontak</Link>
           <Link href="/FAQ" onClick={() => setIsOpen(false)}>FAQ</Link>
-          <Link
-            href="/Kontak"
+          <a
+            href="https://wa.me/62895322276944"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-[#F76F1F] px-4 py-2 rounded-full font-bold"
             onClick={() => setIsOpen(false)}
           >
             Hubungi Kami
-          </Link>
+          </a>
         </div>
       )}
     </nav>
