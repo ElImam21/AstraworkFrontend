@@ -40,9 +40,8 @@ const AccordionItem: React.FC<{
       >
         <span className="text-lg pr-4">{question}</span>
         <svg
-          className={`w-6 h-6 text-[#F76F1F] transform transition-transform duration-300 ${
-            isOpen ? 'rotate-180' : ''
-          }`}
+          className={`w-6 h-6 text-[#F76F1F] transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''
+            }`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -51,9 +50,8 @@ const AccordionItem: React.FC<{
         </svg>
       </button>
       <div
-        className={`overflow-hidden transition-all duration-300 ${
-          isOpen ? 'max-h-96 opacity-100 pb-6' : 'max-h-0 opacity-0'
-        }`}
+        className={`overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96 opacity-100 pb-6' : 'max-h-0 opacity-0'
+          }`}
       >
         <p className="text-gray-600 leading-relaxed">{answer}</p>
       </div>
@@ -173,7 +171,7 @@ const FAQPage = () => {
               <h2 className="text-4xl font-bold text-[#2F1340] mb-4">Pertanyaan Umum</h2>
               <div className="w-24 h-1 bg-[#F76F1F] mx-auto"></div>
               <p className="text-gray-600 max-w-3xl mx-auto mt-6 text-lg">
-                Berikut adalah pertanyaan-pertanyaan yang sering diajukan oleh klien kami. 
+                Berikut adalah pertanyaan-pertanyaan yang sering diajukan oleh klien kami.
                 Jika Anda memiliki pertanyaan lain, jangan ragu untuk menghubungi kami.
               </p>
             </div>
@@ -250,18 +248,18 @@ const FAQPage = () => {
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-[#2F1340] mb-6">Masih Ada Pertanyaan?</h2>
               <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-                Jika Anda tidak menemukan jawaban yang Anda cari atau membutuhkan informasi lebih detail, 
+                Jika Anda tidak menemukan jawaban yang Anda cari atau membutuhkan informasi lebih detail,
                 tim support kami siap membantu Anda.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="mailto:buwongpuyuh41@gmail.com" 
+                <a
+                  href="mailto:buwongpuyuh41@gmail.com"
                   className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg inline-block text-center"
                 >
                   Email Support
                 </a>
-                <a 
-                  href="tel:0895322276944" 
+                <a
+                  href="tel:0895322276944"
                   className="bg-gradient-to-r from-[#2F1340] to-[#501C6B] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg inline-block text-center"
                 >
                   Telepon Langsung
@@ -280,16 +278,23 @@ const FAQPage = () => {
             <FadeInSection>
               <h2 className="text-3xl md:text-4xl font-bold text-[#2F1340] mb-6">Siap Memulai Proyek Anda?</h2>
               <p className="text-gray-700 text-lg mb-8 max-w-2xl mx-auto">
-                Konsultasikan kebutuhan digital dan konstruksi Anda dengan tim profesional kami. 
+                Konsultasikan kebutuhan digital dan konstruksi Anda dengan tim profesional kami.
                 Dapatkan solusi terbaik untuk bisnis Anda.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                <a
+                  href="https://wa.me/62895322276944"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                >
                   Konsultasi Gratis
-                </button>
-                <a 
-                  href="/contact" 
-                  className="bg-gradient-to-r from-[#2F1340] to-[#501C6B] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg inline-block text-center"
+                </a>
+                <a
+                  href="https://wa.me/62895322276944"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-[#2F1340] to-[#501C6B] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
                   Hubungi Kami
                 </a>

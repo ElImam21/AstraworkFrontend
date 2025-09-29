@@ -263,9 +263,14 @@ const AboutPage: React.FC = () => {
             <p className="text-gray-700 text-lg mb-8">
               Mari wujudkan proyek digital atau konstruksi Anda bersama tim profesional kami
             </p>
-            <button className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <a
+              href="https://wa.me/62895322276944"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+            >
               Hubungi Kami
-            </button>
+            </a>
           </div>
         </div>
       </section>

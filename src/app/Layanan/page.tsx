@@ -127,9 +127,14 @@ const ServicesPage = () => {
                     ))}
                   </div>
                   <div className="mt-8 text-center">
-                    <button className="bg-gradient-to-r from-[#2F1340] to-[#501C6B] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    <a
+                      href="https://wa.me/62895322276944"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gradient-to-r from-[#2F1340] to-[#501C6B] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
                       Konsultasi Website
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -164,9 +169,14 @@ const ServicesPage = () => {
                     ))}
                   </div>
                   <div className="mt-8 text-center">
-                    <button className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    <a
+                      href="https://wa.me/62895322276944"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
                       Konsultasi Aplikasi
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -201,9 +211,14 @@ const ServicesPage = () => {
                     ))}
                   </div>
                   <div className="mt-8 text-center">
-                    <button className="bg-gradient-to-r from-[#2F1340] to-[#501C6B] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    <a
+                      href="https://wa.me/62895322276944"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gradient-to-r from-[#2F1340] to-[#501C6B] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
                       Konsultasi Sistem
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -238,9 +253,14 @@ const ServicesPage = () => {
                     ))}
                   </div>
                   <div className="mt-8 text-center">
-                    <button className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-                      Konsultasi Desain
-                    </button>
+                    <a
+                      href="https://wa.me/62895322276944"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
+                      Konsultasi Desain dan Sipil
+                    </a>
                   </div>
                 </div>
               </div>
@@ -288,16 +308,23 @@ const ServicesPage = () => {
             <FadeInSection>
               <h2 className="text-3xl md:text-4xl font-bold text-[#2F1340] mb-6">Siap Mengembangkan Proyek Anda?</h2>
               <p className="text-gray-700 text-lg mb-8 max-w-2xl mx-auto">
-                Konsultasikan kebutuhan digital dan konstruksi Anda dengan tim profesional kami. 
+                Konsultasikan kebutuhan digital dan konstruksi Anda dengan tim profesional kami.
                 Dapatkan solusi terbaik yang disesuaikan dengan kebutuhan bisnis Anda.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-                  Konsultasi Gratis
-                </button>
-                <a 
-                  href="/contact" 
-                  className="bg-gradient-to-r from-[#2F1340] to-[#501C6B] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg inline-block text-center"
+                <a
+                      href="https://wa.me/62895322276944"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
+                      Konsultasi Gratis
+                    </a>
+                <a
+                  href="https://wa.me/62895322276944"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-[#2F1340] to-[#501C6B] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
                   Hubungi Kami
                 </a>

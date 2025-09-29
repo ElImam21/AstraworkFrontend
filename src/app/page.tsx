@@ -70,9 +70,14 @@ const HomePage = () => {
           <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8">
             Solusi Tepat, Layanan Bersahabat
           </p>
-          <button className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+          <a
+            href="https://wa.me/62895322276944"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+          >
             Hubungi Kami
-          </button>
+          </a>
           <div className="animate-bounce mt-12">
             <svg
               className="w-8 h-8 mx-auto text-white"
@@ -151,9 +156,12 @@ const HomePage = () => {
               <p className="text-gray-700 text-lg mb-8 max-w-2xl mx-auto">
                 Konsultasikan kebutuhan digital dan konstruksi Anda dengan tim profesional kami
               </p>
-              <button className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <a
+                href="/Layanan"
+                className="bg-gradient-to-r from-[#F76F1F] to-[#FF9850] text-white font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
                 Lihat Layanan
-              </button>
+              </a>
             </FadeInSection>
           </div>
         </div>
